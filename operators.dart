@@ -8,8 +8,8 @@ void main() {
 	int b = int.parse(stdin.readLineSync()!);
         stdout.writeln('The addition of a and b is:${add(a,b)}');
         stdout.writeln('The subtraction of a and b is:${sub(a,b)}'); 
-        stdout.writeln('The addition of a and b is:${div(a,b)}'); 
-        stdout.writeln('The addition of a and b is:${mul(a,b)}');    
+        stdout.writeln('The division of a and b is:${div(a,b)}'); 
+        stdout.writeln('The multiplication of a and b is:${mul(a,b)}');    
         }
   int add(int a, int b){
     
